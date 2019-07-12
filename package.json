@@ -1,0 +1,48 @@
+{
+  "name": "@xianshenglu/stylelint-config-sass",
+  "version": "0.0.1",
+  "description": "A stylelint config for sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xianshenglu/stylelint-config-sass.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintConfig"
+  ],
+  "author": "xianshenglu <xianshenglu733@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xianshenglu/stylelint-config-sass/issues"
+  },
+  "homepage": "https://github.com/xianshenglu/stylelint-config-sass#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "peerDependencies": {
+    "stylelint": ">= 9.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@release-it/conventional-changelog": "^1.1.0",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0",
+    "prettier": "^1.18.2",
+    "release-it": "^12.3.3"
+  },
+  "dependencies": {
+    "stylelint-color-format": "^0.2.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-sass-guidelines": "^6.0.0"
+  }
+}
