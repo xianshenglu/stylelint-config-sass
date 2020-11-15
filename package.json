@@ -1,7 +1,7 @@
 {
   "name": "@xianshenglu/stylelint-config-sass",
   "version": "0.1.0",
-  "description": "A stylelint config for sass",
+  "description": "A stylelint config",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
