@@ -1,6 +1,9 @@
 module.exports = {
-  extends: ['stylelint-config-recommended'],
-  plugins: ['stylelint-color-format'],
+  extends: [
+    'stylelint-config-recommended',
+    'stylelint-config-standard',
+    'stylelint-config-rational-order'
+  ],
   rules: {
     //! avoid add stylistic rules
     'color-named': 'never',
@@ -10,10 +13,6 @@ module.exports = {
     'selector-max-universal': 0,
     'no-unknown-animations': true,
     'selector-class-pattern': null,
-    'declaration-property-value-blacklist': null,
-    'order/order': null,
-    'color-format/format': {
-      format: 'rgb'
-    }
+    'declaration-property-value-blacklist': null
   }
 }
