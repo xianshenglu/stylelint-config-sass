@@ -6,6 +6,9 @@ module.exports = {
   ],
   rules: {
     //! avoid add stylistic rules
+    'selector-max-id': 1,
+    'selector-class-pattern': null,
+    'declaration-property-value-disallowed-list': {},
     // todo  reduce to 1 when BEM is determined
     'max-nesting-depth': [
       5,
