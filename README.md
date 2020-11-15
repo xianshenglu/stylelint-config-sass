@@ -44,6 +44,11 @@ Then, add `stylelint-config-sass/scss` to the `extends` array in your _.stylelin
 }
 ```
 
+## Todo
+
+- [ ] fix `order/properties-order` and `declaration-empty-line-before` autoFix not work bug
+- [ ]
+
 ## Dependencies
 
 This rule is made based on
